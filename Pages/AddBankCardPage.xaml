@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGalleryApp.Pages.AddBankCardPage"
+             Title="Add Bank Card">
+    <StackLayout Padding="20">
+        
+        <Label Text="Card Number" FontSize="Medium" />
+        <Entry Placeholder="Enter card number" x:Name="CardNumberEntry" />
+
+        <Label Text="Expiration Date (MM/YY)" FontSize="Medium" />
+        <Entry Placeholder="MM/YY" x:Name="ExpirationDateEntry" />
+
+        <Label Text="CVV Code" FontSize="Medium" />
+        <Entry Placeholder="Enter CVV code" x:Name="CVVEntry" />
+
+        <Button Text="Add Card" Clicked="OnAddCardClicked" HorizontalOptions="FillAndExpand" Margin="0,20,0,0" />
+        
+    </StackLayout>
+</ContentPage>

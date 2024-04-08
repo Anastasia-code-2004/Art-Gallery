@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ArtGalleryApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ArtGalleryApp"
+    xmlns:pages="clr-namespace:ArtGalleryApp.Pages"
+    FlyoutBehavior="Disabled"
+    Title="ArtGalleryApp">
+
+    <TabBar>
+        <ShellContent Title="Main"
+                      Route="Main"
+                      ContentTemplate="{DataTemplate local:MainPage}"/><!-- General Info -->
+        <ShellContent Title="Exhibitions"
+                      Route="Exhibitions"
+                      ContentTemplate="{DataTemplate local:MainPage}"/><!-- Current exhibitions -->
+        <ShellContent Title="Collection"
+                      Route="Collection"
+                      ContentTemplate="{DataTemplate pages:CollectionPage}"/><!-- Collection of paintings -->
+        <ShellContent Title="Visit us"
+                      Route="VisitUs"
+                      ContentTemplate="{DataTemplate local:MainPage}"/><!-- Visit us -->
+        <ShellContent Title="My profile"
+                      Route="LogIn"
+                      ContentTemplate="{DataTemplate pages:LogInPage}"/>
+    </TabBar>
+
+</Shell>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGalleryApp.Pages.ForAdmin.AdminCollectionPage"
+             xmlns:entities="clr-namespace:ArtGalleryApp.Entities"
+             x:DataType="entities:Painting"
+             Title="Collection">
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Button Text="Add Painting" Clicked="AddPaintingButton_OnClicked"/>
+            <CollectionView x:Name="PaintingsCollection"  ItemsLayout="VerticalList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Delete" BackgroundColor="Red" Clicked="DeleteSwipeItem_Clicked" CommandParameter="{Binding .}" />
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Frame Margin="10">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width= ".2*"/>
+                                        <ColumnDefinition Width= ".8*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding ImagePath}"/>
+                                    <VerticalStackLayout Grid.Column="1" Padding="5" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Author}" FontAttributes="Italic"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="Painting_Tapped" />
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

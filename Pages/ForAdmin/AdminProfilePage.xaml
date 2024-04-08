@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGalleryApp.Pages.ForAdmin.AdminProfilePage"
+             xmlns:pages="clr-namespace:ArtGalleryApp.Pages.ForAdmin"
+             x:DataType="pages:AdminProfilePage"
+             Title="Admin Profile">
+    <ContentPage.Resources>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="BackgroundColor" Value="#fff95b" />
+            <Setter Property="BorderColor" Value="#ffb703" />
+            <Setter Property="CornerRadius" Value="0" />
+            <Setter Property="BorderWidth" Value="1" />
+        </Style>
+
+    </ContentPage.Resources>
+    <VerticalStackLayout Spacing="10">
+        <Image
+        Source="admin.png"
+        HeightRequest="150"/>
+        <Label x:Name="Name" Text="{Binding Admin.Name}"/>
+        <Label x:Name="Surname" Text="{Binding Admin.Surname}"/>
+        
+        <Grid RowDefinitions="*, *, *, *" RowSpacing="0.7">
+            <Button Text="Tickets" Style="{StaticResource ButtonStyle}"/>
+            <Button Grid.Row="1" Text="Admins" Style="{StaticResource ButtonStyle}" Clicked="AdminsButton_Clicked"/>
+            <Button Grid.Row="2" Text="Clients" Style="{StaticResource ButtonStyle}" Clicked="ClientsButton_Clicked"/>
+            <Button Grid.Row="3" Text="Log out" Style="{StaticResource ButtonStyle}" Clicked="LogOutButton_OnClicked"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

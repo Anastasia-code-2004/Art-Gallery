@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ArtGalleryApp.Pages"
+             x:DataType="local:LogInPage"
+             x:Class="ArtGalleryApp.Pages.LogInPage">
+    <ContentPage.Resources>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="BackgroundColor" Value="#E0B0FF" />
+            <Setter Property="BorderColor" Value="#7851A9" />
+            <Setter Property="CornerRadius" Value="0" />
+            <Setter Property="BorderWidth" Value="1" />
+        </Style>
+
+    </ContentPage.Resources>
+    <ContentPage.Content>
+       <VerticalStackLayout Spacing="50">
+            <Entry x:Name="LoginEntry" Placeholder="Login" Text="{Binding Login}"/>
+            <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True" Text="{Binding Password}"/>
+            <Grid RowDefinitions="*, *" RowSpacing="0.4">
+                <Button Text="Log In" Clicked="LogInButton_OnClicked" Style="{StaticResource ButtonStyle}"/>
+                <Button Grid.Row="1" Text="Register" Clicked="RegisterButton_OnClicked" Style="{StaticResource ButtonStyle}"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

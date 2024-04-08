@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGalleryApp.Pages.ForAdmin.AddPaintingPage"
+             xmlns:local="clr-namespace:ArtGalleryApp.Pages.ForAdmin"
+             x:DataType="local:AddPaintingPage"
+             
+             Title="Add Painting">
+    <VerticalStackLayout>
+        <Entry Placeholder="Name" Text="{Binding Name}"/>
+        <Entry Placeholder="Author" Text="{Binding Author}"/>
+        <Entry Placeholder="Year of creation" Text="{Binding YearofCreation}"/>
+        <Entry Placeholder="Image path" Text="{Binding ImagePath}"/>
+
+        <Button Text="Add" Clicked="AddButton_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

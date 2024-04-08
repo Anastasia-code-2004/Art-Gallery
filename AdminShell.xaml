@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ArtGalleryApp.AdminShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ArtGalleryApp"
+    xmlns:pages="clr-namespace:ArtGalleryApp.Pages.ForAdmin"
+    FlyoutBehavior="Disabled"
+    Title="ArtGalleryApp">
+
+    <TabBar>
+        <ShellContent Title="Main"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+        <!-- General Info -->
+        <ShellContent Title="Exhibitions"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+        <!-- Current exhibitions -->
+        <ShellContent Title="Collection"
+                      Route="AdminCollection"
+                      ContentTemplate="{DataTemplate pages:AdminCollectionPage}"/>
+        
+        <ShellContent Title="Another"
+                      ContentTemplate="{DataTemplate local:MainPage}"/>
+        <!-- Visit us -->
+        <ShellContent Title="My profile"
+                      Route="AdminProfile"
+                      ContentTemplate="{DataTemplate pages:AdminProfilePage}"/>
+        
+    </TabBar>
+
+</Shell>

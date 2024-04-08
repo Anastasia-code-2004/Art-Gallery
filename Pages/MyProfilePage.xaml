@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGalleryApp.Pages.MyProfilePage"
+             xmlns:pages="clr-namespace:ArtGalleryApp.Pages"
+             x:DataType="pages:MyProfilePage"
+             Title="My Profile">
+    <ContentPage.Resources>
+
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="BackgroundColor" Value="#E0B0FF" />
+            <Setter Property="BorderColor" Value="#7851A9" />
+            <Setter Property="CornerRadius" Value="0" />
+            <Setter Property="BorderWidth" Value="1" />
+        </Style>
+
+    </ContentPage.Resources>
+    <VerticalStackLayout Spacing="10">
+        <Image
+            Source="monalisa.png"
+            HeightRequest="150"/>
+        <Label Text="{Binding Client.Name}"/>
+        <Label Text="{Binding Client.Surname}"/>
+        <Label Text="{Binding Client.Email}"/>
+        <Label Text="{Binding Client.ID}"/>
+        <Grid RowDefinitions="*, *, *, *" RowSpacing="0.7">
+            <Button Text="My Tickets" Style="{StaticResource ButtonStyle}"/>
+            <Button Grid.Row="1" Text="Membership" Style="{StaticResource ButtonStyle}"/>
+            <Button Grid.Row="2" Text="Bank Card" Style="{StaticResource ButtonStyle}" Clicked="BankCardButton_Clicked"/>
+            <Button Grid.Row="3" Text="Log out" Style="{StaticResource ButtonStyle}" Clicked="LogOutButton_OnClicked"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
