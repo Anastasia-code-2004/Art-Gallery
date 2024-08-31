@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ArtGallerySystem.UI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ArtGallerySystem.UI"
+    xmlns:pages="clr-namespace:ArtGallerySystem.UI.Pages"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Shell.FlyoutBehavior="Disabled"
+    Title="ArtGallerySystem.UI">
+
+
+    <Shell.TabBarForegroundColor>
+        <Color>#f4acb7</Color>
+    </Shell.TabBarForegroundColor>
+    <Shell.ForegroundColor>
+        <Color>black</Color>
+    </Shell.ForegroundColor>
+
+    <TabBar >
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Icon="home.png"
+            Route="MainPage"/>
+        <ShellContent
+            Title="Membership"
+            ContentTemplate="{DataTemplate pages:MembershipPage}"
+            Icon="about.png"
+            Route="MembershipPage"/>
+        <ShellContent
+            Title="Collection"
+            ContentTemplate="{DataTemplate pages:CollectionPage}"
+            Icon="collection.png"
+            Route="CollectionPage"/>
+        <ShellContent
+            Title="Exhibitions"
+            ContentTemplate="{DataTemplate pages:ExhibitionsPage}"
+            Icon="exhibitions.png"
+            Route="ExhibitionsPage"/>
+        <ShellContent
+            Title="Profile"
+            ContentTemplate="{DataTemplate pages:LogInPage}"
+            Icon="profile.png"
+            Route="LogInPage"/>
+    </TabBar>
+    
+</Shell>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.MainPage"
+             Title="Celestial Gallery">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+            <!-- Gallery Image -->
+            <Frame BorderColor="LightGray" CornerRadius="20" HasShadow="True">
+                <Image Source="cg.png" Aspect="AspectFill" HeightRequest="300" />
+            </Frame>
+
+            <!-- Description -->
+            <Label Text="Step into the enchanting world of art at the Celestial Gallery, where every piece tells a story of magic and wonder. Discover a realm where imagination meets reality, and inspiration is just a glance away."
+                   FontSize="18"
+                   TextColor="#333"
+                   Margin="0,20,0,0"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- Contact Information -->
+            <Frame Padding="10" Margin="0,20,0,0" BackgroundColor="#f4acb7" CornerRadius="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Contact and Address:" FontSize="20" FontAttributes="Bold" TextColor="#ffe5ea" />
+                    <Label Text="Email: contact@celestialgallery.com" FontSize="16" TextColor="#ffe5ea" />
+                    <Label Text="Phone: +1 (555) 123-4567" FontSize="16" TextColor="#ffe5ea" />
+                    <Label Text="Address: 123 Dreamscape Avenue, Aurora, NY 10001" FontSize="16" TextColor="#ffe5ea" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

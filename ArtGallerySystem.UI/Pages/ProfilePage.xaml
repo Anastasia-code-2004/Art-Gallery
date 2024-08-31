@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.ProfilePage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             x:DataType="models:ProfileViewModel"
+             Title="Profile"
+             BackgroundColor="White">
+
+    <!-- Установка поведения кнопки назад -->
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsEnabled="False" />
+        
+    </Shell.BackButtonBehavior>
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+        <Frame CornerRadius="10" Padding="20" BackgroundColor="#ffcad4" HasShadow="True">
+            <VerticalStackLayout Spacing="10">
+                <Label Text="{Binding Client.PersonalData.Name}"
+                       FontSize="18"
+                       TextColor="Black"
+                       HorizontalOptions="Center" />
+                <Label Text="{Binding Client.PersonalData.Surname}"
+                       FontSize="18"
+                       TextColor="Black"
+                       HorizontalOptions="Center" />
+                <Label Text="{Binding Client.PersonalData.Email}"
+                       FontSize="18"
+                       TextColor="Black"
+                       HorizontalOptions="Center" />
+                <Label Text="{Binding Client.PersonalData.Phone}"
+                       FontSize="18"
+                       TextColor="Black"
+                       HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Grid RowDefinitions="Auto, Auto, Auto, Auto" RowSpacing="10">
+            <Button Text="My Tickets"
+                    BackgroundColor="White"
+                    TextColor="#F4ACB7"
+                    BorderColor="#9d8189"
+                    BorderWidth="2"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding GetTicketsCommand}"/>
+                </Button.Behaviors>
+            </Button>
+
+            <Button Grid.Row="1"
+                    Text="Bank Cards"
+                    BackgroundColor="White"
+                    TextColor="#F4ACB7"
+                    BorderColor="#9d8189"
+                    BorderWidth="2"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding GetBankCardsCommand}"/>
+                </Button.Behaviors>
+            </Button>
+
+            <Button Grid.Row="2"
+                    Text="Qr-code"
+                    BackgroundColor="White"
+                    TextColor="#F4ACB7"
+                    BorderColor="#9d8189"
+                    BorderWidth="2"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding GetQrCodeCommand}"/>
+                </Button.Behaviors>
+            </Button>
+
+            <Button Grid.Row="3"
+                    Text="Log Out"
+                    BackgroundColor="#F4ACB7"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    HorizontalOptions="FillAndExpand">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding LogOutCommand}"/>
+                </Button.Behaviors>
+            </Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

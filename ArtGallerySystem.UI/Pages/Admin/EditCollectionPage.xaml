@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.EditCollectionPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:valueConverters="clr-namespace:ArtGallerySystem.UI.ValueConverters"
+             x:DataType="models:EditCollectionViewModel"
+             Title="Collection">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdatePaintingsCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <valueConverters:IdToImageSourceConverter x:Key="IdToImageSourceConverter" />
+            <valueConverters:BytesToImageSourceConverter x:Key="BytesToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="add.png" Command="{Binding AddPaintingCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <CollectionView ItemsLayout="VerticalList" ItemsSource="{Binding Paintings}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Delete" BackgroundColor="Red" 
+                                               Command="{Binding Source={RelativeSource AncestorType={x:Type models:EditCollectionViewModel}}, Path=DeletePaintingCommand}" 
+                                               CommandParameter="{Binding .}" />
+
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Frame Margin="10" x:DataType="entities:Painting">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width= ".2*"/>
+                                        <ColumnDefinition Width= ".8*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Image Source="{Binding Photo, Converter={StaticResource BytesToImageSourceConverter}}"/>
+                                    <VerticalStackLayout Grid.Column="1" Padding="5" VerticalOptions="Center">
+                                        <Label Text="{Binding Name}" FontSize="Medium" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Author}" FontAttributes="Italic"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                    AncestorType={x:Type models:EditCollectionViewModel}}, Path=EditPaintingCommand}" 
+                                                          CommandParameter="{Binding .}"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.AddExhibitionPage"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             x:DataType="models:AddExhibitionViewModel"
+             Title="Add Exhibition">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdatePaintingsCommand}"/>
+    </ContentPage.Behaviors>
+    <ScrollView>
+    <VerticalStackLayout Margin="0,10,0,0">
+        <Entry Placeholder="Name" Text="{Binding Name}" MaxLength="20" WidthRequest="350"/>
+        <Editor Placeholder="Description" 
+                Text="{Binding Description}" 
+                MaxLength="200" 
+                WidthRequest="350" 
+                HeightRequest="100"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" />
+        <Label Text="Start Date" WidthRequest="350"/>
+        <DatePicker Date="{Binding StartDate}" MinimumDate="{x:Static sys:DateTime.Today}" WidthRequest="350"/>
+        <Label Text="End Date" WidthRequest="350"/>
+        <DatePicker Date="{Binding EndDate}" MinimumDate="{x:Static sys:DateTime.Today}" WidthRequest="350"/>
+        <Entry Placeholder="Ticket Price" Text="{Binding Price}" Keyboard="Numeric" MaxLength="6" WidthRequest="350"/>
+        <ListView ItemsSource="{Binding Paintings}" WidthRequest="350">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Painting">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="{Binding IsInExhibition}" Color="#9d8189"/>
+                            <Label Text="{Binding Name}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Add" BackgroundColor="Transparent" TextColor="#9d8189" BorderColor="#9d8189" BorderWidth="1" CornerRadius="0" WidthRequest="350" >
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding AddExhibitionCommand}"/>
+            </Button.Behaviors>
+        </Button>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

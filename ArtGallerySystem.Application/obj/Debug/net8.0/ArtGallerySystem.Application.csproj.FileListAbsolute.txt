@@ -1,0 +1,15 @@
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\bin\Debug\net8.0\ArtGallerySystem.Application.deps.json
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\bin\Debug\net8.0\ArtGallerySystem.Application.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\bin\Debug\net8.0\ArtGallerySystem.Application.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\bin\Debug\net8.0\ArtGallerySystem.Domain.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\bin\Debug\net8.0\ArtGallerySystem.Domain.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.csproj.AssemblyReference.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.AssemblyInfoInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.AssemblyInfo.cs
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGalle.66413586.Up2Date
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\refint\ArtGallerySystem.Application.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ArtGallerySystem.Application.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Application\obj\Debug\net8.0\ref\ArtGallerySystem.Application.dll

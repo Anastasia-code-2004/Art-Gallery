@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.BuyMembershipPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:BuyMembershipViewModel"
+             Title="Buy Membership">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                    Command="{Binding UpdateInfoCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15">
+            <Frame BorderColor="LightGray" CornerRadius="10" HasShadow="True" Padding="20">
+                <StackLayout Spacing="10">
+                    <Label Text="{Binding CategoryMembership.Name}" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="Black"
+                           HorizontalOptions="Center" />
+                    <Label Text="{Binding CategoryMembership.Price, StringFormat='Price: {0:N2} BYN'}" 
+                           FontSize="16" 
+                           TextColor="DarkGray"
+                           HorizontalOptions="Center"
+                           Margin="0,5,0,0" />
+                    <Label Text="{Binding Membership.StartDate, StringFormat='Start Date: {0:MMMM dd, yyyy}'}" 
+                           FontSize="16" 
+                           TextColor="DarkGray"
+                           HorizontalOptions="Center"
+                           Margin="0,5,0,0" />
+                    <Label Text="{Binding Membership.EndDate, StringFormat='End Date: {0:MMMM dd, yyyy}'}" 
+                           FontSize="16" 
+                           TextColor="DarkGray"
+                           HorizontalOptions="Center"
+                           Margin="0,5,0,0" />
+                    <Button Text="Purchase Membership" BackgroundColor="#007ACC"
+                            TextColor="White"
+                            CornerRadius="5"
+                            Margin="0,20,0,0" >
+                        <Button.Behaviors>
+                            <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding BuyMembershipCommand}"/>
+                        </Button.Behaviors>
+                    </Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

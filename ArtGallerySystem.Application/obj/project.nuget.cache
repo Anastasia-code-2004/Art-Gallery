@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Id1dQ3TtR+yaCcN4AUXNvloUhc3qASiMFnVJFo3f3jqrznL1KGbVFmNTU1zAupEE9sdxKhqJCOh8sdADZ8pEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\naaan\\source\\repos\\ArtGallerySystem\\ArtGallerySystem.Application\\ArtGallerySystem.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\naaan\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\naaan\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\naaan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\bin\Debug\net8.0\ArtGallerySystem.Domain.deps.json
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\bin\Debug\net8.0\ArtGallerySystem.Domain.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\bin\Debug\net8.0\ArtGallerySystem.Domain.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.AssemblyInfoInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.AssemblyInfo.cs
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\refint\ArtGallerySystem.Domain.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ArtGallerySystem.Domain.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Domain\obj\Debug\net8.0\ref\ArtGallerySystem.Domain.dll

@@ -1,0 +1,51 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.TicketsForClientPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:valueConverters="clr-namespace:ArtGallerySystem.UI.ValueConverters"
+             x:DataType="models:TicketsForClientViewModel"
+             Title="Tickets">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <valueConverters:NullToTextConverter x:Key="NullToTextConverter" />
+            <valueConverters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+            <valueConverters:ExhibitionEndDateToColorConverter x:Key="ExhibitionEndDateToColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateTicketsCommand}"/>
+    </ContentPage.Behaviors>
+
+    <StackLayout Padding="10">
+        <!-- Membership Information -->
+        <Frame Padding="10" Margin="10" BorderColor="LightGray" CornerRadius="10" BackgroundColor="LightBlue" IsVisible="{Binding Membership}">
+            <StackLayout>
+                <Label Text="Membership Information" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+                <Label Text="{Binding Membership.CategoryMembership.Name, StringFormat='Type: {0}'}" FontSize="16" FontAttributes="Bold" />
+                <Label Text="{Binding Membership.EndDate, StringFormat='Expiry Date: {0:dd/MM/yyyy}'}" FontSize="16" />
+                <Label Text="{Binding Membership.StartDate, StringFormat='Purchase Date: {0:dd/MM/yyyy HH:mm}'}" FontSize="16" />
+            </StackLayout>
+        </Frame>
+
+        <!-- Tickets List -->
+        <CollectionView ItemsSource="{Binding Tickets}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Ticket">
+                    <Frame Padding="10" Margin="10" BorderColor="LightGray" CornerRadius="10"
+                           BackgroundColor="{Binding Exhibition.EndDate, Converter={StaticResource ExhibitionEndDateToColorConverter}}">
+                        <StackLayout>
+                            <Label Text="{Binding Exhibition.Name, StringFormat='Exhibition: {0}'}" FontSize="16"/>
+                            <Label Text="{Binding Category.Name, StringFormat='Category: {0}'}" FontSize="16"/>
+                            <Label Text="{Binding Price, StringFormat='Price: {0:N2} BYN'}" FontSize="16"/>
+                            <Label Text="{Binding PurchaseTime, StringFormat='{0:dd/MM/yyyy HH:mm}'}" FontSize="16"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.EditExhibitionsPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:valueConverters="clr-namespace:ArtGallerySystem.UI.ValueConverters"
+             x:DataType="models:EditExhibitionsViewModel"
+             Title="Edit Exhibitions"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Command="{Binding AddExhibitionCommand}" IconImageSource="add.png"/>
+        <ToolbarItem Command="{Binding DeleteExhibitionCommand}" 
+                     CommandParameter="{Binding SelectedExhibition.Id}"
+                     IconImageSource="delete.png"/>
+        <ToolbarItem Command="{Binding EditExhibitionCommand}" 
+                     CommandParameter="{Binding SelectedExhibition.Id}"
+                     IconImageSource="edit.png"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <valueConverters:BytesToImageSourceConverter x:Key="BytesToImageSourceConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateExhibitionsCommand}"/>
+    </ContentPage.Behaviors>
+
+    <Grid ColumnDefinitions="*" RowDefinitions="Auto, *" Padding="20">
+        <Picker Title="Select Exhibition"
+                HeightRequest="60"
+                ItemsSource="{Binding Exhibitions}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedItem="{Binding SelectedExhibition}"
+                BackgroundColor="#ffe5ea"
+                TextColor="Black"
+                Margin="0,0,0,20">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                                Command="{Binding UpdatePaintingsCommand}"/>
+            </Picker.Behaviors>
+        </Picker>
+
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Paintings}" Margin="0,0,0,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Painting">
+                    <Frame Padding="10" Margin="10" CornerRadius="10" BackgroundColor="White" HasShadow="True">
+                        <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="Center">
+                            <Image Source="{Binding Photo, Converter={StaticResource BytesToImageSourceConverter}}" 
+                                   Aspect="AspectFit" 
+                                   HeightRequest="200" 
+                                   WidthRequest="200"/>
+                            <Label Text="{Binding Name}" 
+                                   FontSize="16" 
+                                   TextColor="#333" 
+                                   HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.AddMembershipCategoryPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:AddMembershipCategoryViewModel"
+             Title="Add Category">
+    <ContentPage.Resources>
+        <Style x:Key="EntryStyle" TargetType="Entry">
+            <Setter Property="Margin" Value="0,10"/>
+            <Setter Property="BackgroundColor" Value="#ffe5ea"/>
+            <Setter Property="TextColor" Value="#333333"/>
+            <Setter Property="PlaceholderColor" Value="#999999"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HeightRequest" Value="50"/>
+        </Style>
+        <Style x:Key="EditorStyle" TargetType="Editor">
+            <Setter Property="Margin" Value="0,10"/>
+            <Setter Property="BackgroundColor" Value="#ffe5ea"/>
+            <Setter Property="TextColor" Value="#333333"/>
+            <Setter Property="PlaceholderColor" Value="#999999"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="HeightRequest" Value="100"/>
+        </Style>
+        <Style x:Key="ButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#f4acb7"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="HeightRequest" Value="50"/>
+            <Setter Property="Margin" Value="0,20"/>
+        </Style>
+        <Style x:Key="FrameStyle" TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="#ffcad4"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="HasShadow" Value="True"/>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15">
+            <Label Text="Add Membership Category" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center"
+                   TextColor="#333333"/>
+            <Frame Style="{StaticResource FrameStyle}">
+                <StackLayout>
+                    <Entry Placeholder="Name"
+                           Text="{Binding Name}" 
+                           Style="{StaticResource EntryStyle}"/>
+                    <Editor Placeholder="Description"
+                            Text="{Binding Description}" 
+                            Style="{StaticResource EditorStyle}"/>
+                    <Entry Placeholder="Price"
+                           Text="{Binding Price}"
+                           Keyboard="Numeric" 
+                           Style="{StaticResource EntryStyle}"/>
+                    <Entry Placeholder="Duration"
+                           Text="{Binding Duration}"
+                           Keyboard="Numeric" 
+                           Style="{StaticResource EntryStyle}"/>
+                    <Button Text="Add"
+                            Style="{StaticResource ButtonStyle}">
+                        <Button.Behaviors>
+                            <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding AddCategoryCommand}"/>
+                        </Button.Behaviors>
+                    </Button>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

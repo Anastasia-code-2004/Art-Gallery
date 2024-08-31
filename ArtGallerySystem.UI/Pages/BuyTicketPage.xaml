@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.BuyTicketPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:BuyTicketViewModel"
+             Title="Buy Ticket">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded" Command="{Binding UpdateCategoriesCommand}"/>
+    </ContentPage.Behaviors>
+
+    <StackLayout Padding="20" Spacing="15">
+        <Label Text="Initial Exhibition Price:" 
+               FontSize="16" 
+               FontAttributes="Bold" 
+               TextColor="#333333"/>
+
+        <Label Text="{Binding Exhibition.TicketPrice, StringFormat='{}{0:N2} BYN'}" 
+               FontSize="24" 
+               FontAttributes="Bold" 
+               HorizontalTextAlignment="Center" 
+               TextColor="#dd2d4a"/>
+
+        <Picker Title="Select a category"
+                ItemsSource="{Binding Categories}"
+                SelectedItem="{Binding SelectedCategory}"
+                ItemDisplayBinding="{Binding Name}">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged"
+                                                CommandParameter="{Binding SelectedCategory}"
+                                                Command="{Binding UpdatePriceCommand}"/>
+            </Picker.Behaviors>
+        </Picker>
+
+        <Label Text="{Binding SelectedCategory.Description}" 
+               FontSize="14" 
+               TextColor="#555555"/>
+
+        <Label Text="{Binding SelectedCategory.Discount, StringFormat='Discount: {0}%'}" 
+               FontSize="14" 
+               TextColor="#555555"/>
+
+        <Label Text="Price After Discount:" 
+               FontSize="16" 
+               FontAttributes="Bold" 
+               TextColor="#333333"/>
+
+        <Label Text="{Binding DiscountedPrice, StringFormat='{}{0:N2} BYN'}" 
+               FontSize="24" 
+               FontAttributes="Bold" 
+               HorizontalTextAlignment="Center" 
+               TextColor="#f26a8d"/>
+
+        <Button Text="Next" 
+                BackgroundColor="#dd2d4a" 
+                TextColor="White" 
+                FontSize="20" 
+                BorderWidth="0" 
+                CornerRadius="10" 
+                Padding="10">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding ChooseCardCommand}"/>
+            </Button.Behaviors>
+        </Button>
+    </StackLayout>
+</ContentPage>

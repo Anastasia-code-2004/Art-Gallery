@@ -1,0 +1,15 @@
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\bin\Debug\net8.0\ArtGallerySystem.Persistense.deps.json
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\bin\Debug\net8.0\ArtGallerySystem.Persistense.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\bin\Debug\net8.0\ArtGallerySystem.Persistense.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\bin\Debug\net8.0\ArtGallerySystem.Domain.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\bin\Debug\net8.0\ArtGallerySystem.Domain.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.csproj.AssemblyReference.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.AssemblyInfoInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.AssemblyInfo.cs
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.csproj.CoreCompileInputs.cache
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGalle.60B196A4.Up2Date
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\refint\ArtGallerySystem.Persistense.dll
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ArtGallerySystem.Persistense.pdb
+C:\Users\naaan\source\repos\ArtGallerySystem\ArtGallerySystem.Persistense\obj\Debug\net8.0\ref\ArtGallerySystem.Persistense.dll

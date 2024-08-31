@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ArtGallerySystem.Domain.Entities.Entity" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Admin" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Admin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Client" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.BankCard" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAAJAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\BankCard.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Exhibition" Collapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="ArtGallerySystem.Domain.Entities.Entity" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="1.062" />
+        <Point X="7.25" Y="1.214" />
+        <Point X="15.5" Y="1.214" />
+        <Point X="15.5" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAgAQgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Entities\Exhibition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Painting" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAABAAAEAAgACACgAAAAAQAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Painting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Category" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Entities\Category.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.CategoryMembership" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.75" />
+    <InheritanceLine Type="ArtGallerySystem.Domain.Entities.Entity" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="1.062" />
+        <Point X="7.25" Y="1.164" />
+        <Point X="1.375" Y="1.164" />
+        <Point X="1.375" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAiAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\CategoryMembership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Membership" Collapsed="true">
+    <Position X="4.25" Y="4.25" Width="1.5" />
+    <InheritanceLine Type="ArtGallerySystem.Domain.Entities.Entity" ManuallyRouted="true">
+      <Path>
+        <Point X="7.25" Y="1.062" />
+        <Point X="7.25" Y="1.182" />
+        <Point X="4.512" Y="1.182" />
+        <Point X="4.512" Y="3.916" />
+        <Point X="5.254" Y="3.916" />
+        <Point X="5.254" Y="4.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Client" Type="ArtGallerySystem.Domain.Entities.Client" ManuallyRouted="true">
+      <Path>
+        <Point X="5.533" Y="4.25" />
+        <Point X="5.533" Y="2.628" />
+        <Point X="6.953" Y="2.628" />
+        <Point X="6.953" Y="2.05" />
+        <Point X="7.167" Y="2.05" Type="JumpStart" />
+        <Point X="7.333" Y="2.05" Type="JumpEnd" />
+        <Point X="8.5" Y="2.05" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAgAAAAAAgAAAAACAAAAAAAEAAAAQ=</HashCode>
+      <FileName>Entities\Membership.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CategoryMembership" />
+      <Property Name="Client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.QrCode" Collapsed="true">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <AssociationLine Name="Membership" Type="ArtGallerySystem.Domain.Entities.Membership" ManuallyRouted="true">
+      <Path>
+        <Point X="7.5" Y="5.25" />
+        <Point X="7.5" Y="6.598" />
+        <Point X="4.93" Y="6.598" />
+        <Point X="4.93" Y="4.596" />
+        <Point X="5.75" Y="4.596" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Exhibition" Type="ArtGallerySystem.Domain.Entities.Exhibition" ManuallyRouted="true">
+      <Path>
+        <Point X="7.75" Y="5.392" />
+        <Point X="7.75" Y="5.852" />
+        <Point X="7.842" Y="5.852" />
+        <Point X="7.842" Y="5.924" />
+        <Point X="8.594" Y="5.924" />
+        <Point X="8.594" Y="5.862" />
+        <Point X="15.5" Y="5.862" />
+        <Point X="15.5" Y="4.691" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAACAAAAgAAAAAAAQAAAAAQgAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\QrCode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+      <Property Name="Exhibition" />
+      <Property Name="Membership" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Entities.Ticket" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQACAgAQgAAAAAAAAAAAAAQAAAAAAAAACAQ=</HashCode>
+      <FileName>Entities\Ticket.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Client" />
+      <Property Name="Category" />
+      <Property Name="Exhibition" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ArtGallerySystem.Domain.Services.UserService" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAEIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_currentUser" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

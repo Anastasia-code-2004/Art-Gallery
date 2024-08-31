@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.RegisterPage"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             x:DataType="models:RegisterViewModel"
+             Title="Registration">
+    <ContentPage.Resources>
+        <Style TargetType="Entry">
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="BackgroundColor" Value="White" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#E91E63" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="20" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="Padding" Value="10,5" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="Red" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+    </ContentPage.Resources>
+
+
+    <VerticalStackLayout Spacing="20" Padding="20" VerticalOptions="Center">
+        <VerticalStackLayout Spacing="10">
+            <Border Stroke="{Binding NameBorderColor}">
+                <Entry Placeholder="Name" Text="{Binding Name}" MaxLength="30"/>
+            </Border>
+            <Label Text="{Binding NameValidationMessage}" />
+
+            <Border Stroke="{Binding SurnameBorderColor}">
+                <Entry Placeholder="Surname" Text="{Binding Surname}" MaxLength="30"/>
+            </Border>
+            <Label Text="{Binding SurnameValidationMessage}" />
+
+            <Border Stroke="{Binding EmailBorderColor}">
+                <Entry Placeholder="Email" Text="{Binding Email}" Keyboard="Email" MaxLength="35"/>
+            </Border>
+            <Label Text="e.g. example@mail.com" TextColor="Gray" />
+            <Label Text="{Binding EmailValidationMessage}" />
+
+            <Border Stroke="{Binding PhoneBorderColor}">
+                <Entry Placeholder="Phone number" Text="{Binding Phone}" Keyboard="Telephone" MaxLength="13"/>
+            </Border>
+            <Label Text="e.g. +375291234567" TextColor="Gray" />
+            <Label Text="{Binding PhoneValidationMessage}" />
+
+            <Border Stroke="{Binding PasswordBorderColor}">
+                <Entry Placeholder="Password" IsPassword="True" Text="{Binding Password}"/>
+            </Border>
+            <Label Text="{Binding PasswordValidationMessage}" />
+
+            <Button Text="Register"
+                    BackgroundColor="Transparent"
+                    TextColor="#F4ACB7"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    WidthRequest="350"
+                    BorderColor="#F4ACB7"
+                    BorderWidth="2"
+                    HorizontalOptions="Center"
+                    IsEnabled="{Binding CanRegister}"> 
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked"
+                                        Command="{Binding RegisterCommand}" />
+                </Button.Behaviors>
+            </Button>
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

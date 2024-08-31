@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:LogInViewModel"
+             x:Class="ArtGallerySystem.UI.Pages.LogInPage"
+             Title=""
+             BackgroundColor="#FFFFFF">
+
+    <VerticalStackLayout Padding="30" Spacing="30" BackgroundColor="#FFFFFF">
+
+        <Label Text="Welcome to Celestial Gallery"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Frame CornerRadius="10"
+               BackgroundColor="#F4ACB7"
+               Padding="10"
+               HasShadow="True">
+            <VerticalStackLayout Spacing="20">
+                <Entry Placeholder="Login"
+                       Text="{Binding EmailPhone}"
+                       Keyboard="Email"
+                       BackgroundColor="#FFFFFF"
+                       TextColor="#9D8189"
+                       PlaceholderColor="#9D8189" 
+                       />
+
+                <Entry Placeholder="Password"
+                       IsPassword="True"
+                       Text="{Binding Password}"
+                       BackgroundColor="#FFFFFF"
+                       TextColor="#9D8189"
+                       PlaceholderColor="#9D8189" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Grid RowDefinitions="*,*"
+              RowSpacing="10">
+            <Button Text="Log In"
+                    BackgroundColor="Transparent"
+                    TextColor="#F4ACB7"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    WidthRequest="320"
+                    BorderColor="#F4ACB7"
+                    BorderWidth="2"
+                    HorizontalOptions="Center">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked"
+                                                    Command="{Binding LogInCommand}" />
+                </Button.Behaviors>
+            </Button>
+
+            <Button Grid.Row="1"
+                    Text="Register"
+                    BackgroundColor="Transparent"
+                    TextColor="Black"
+                    FontAttributes="Bold"
+                    CornerRadius="0"
+                    HeightRequest="50"
+                    WidthRequest="320"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    HorizontalOptions="Center">
+                <Button.Behaviors>
+                    <toolkit:EventToCommandBehavior EventName="Clicked"
+                                                    Command="{Binding RegisterCommand}" />
+                </Button.Behaviors>
+            </Button>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

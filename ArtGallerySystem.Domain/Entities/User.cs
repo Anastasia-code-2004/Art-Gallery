@@ -1,0 +1,10 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ArtGallerySystem.Domain.Entities
+{
+    public sealed record User(string Name, string Surname, string Email, string Phone, string Password);
+}

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.ClientsPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             x:DataType="models:ClientsViewModel"
+             Title="Clients">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateClientsCommand}"/>
+    </ContentPage.Behaviors>
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <CollectionView ItemsLayout="VerticalList" SelectionMode="None" ItemsSource="{Binding Clients}">
+                <CollectionView.ItemTemplate >
+                    <DataTemplate x:DataType="entities:Client">
+                        <Frame Margin="10" >
+                            <VerticalStackLayout>
+                                <HorizontalStackLayout>
+                                    <Label Text="{Binding PersonalData.Name}" FontSize="Medium" FontAttributes="Bold" TextColor="#474A51"/>
+                                    <Label Text="  "/>
+                                    <Label Text="{Binding PersonalData.Surname}" FontSize="Medium" FontAttributes="Bold" TextColor="#474A51"/>
+                                </HorizontalStackLayout>
+                                <Label Text="{Binding PersonalData.Email}" FontSize="Medium" FontAttributes="Bold" TextColor="#474A51"/>
+                                <Label Text="{Binding PersonalData.Phone}" FontSize="Medium" FontAttributes="Bold" TextColor="#474A51"/>
+                            </VerticalStackLayout>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                    AncestorType={x:Type models:ClientsViewModel}}, Path=GetTicketsForClientCommand}" 
+                                                      CommandParameter="{Binding .}"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.AddPaintingPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:AddPaintingViewModel"
+             Title="Add Painting">
+    <VerticalStackLayout>
+        <Image Source="{Binding SelectedPhoto}" Aspect="AspectFit" WidthRequest="500" HeightRequest="250"/>
+        <Entry Placeholder="Name" Text="{Binding Name}" MaxLength="25" WidthRequest="350"/>
+        <Entry Placeholder="Author" Text="{Binding Author}" MaxLength="30" WidthRequest="350"/>
+        <Entry Placeholder="Year of creation" Text="{Binding YearOfCreation}" WidthRequest="350"
+               Keyboard="Numeric" MaxLength="4"/>
+        <Editor Placeholder="Description" 
+                Text="{Binding Description}"
+                MaxLength="200" 
+                WidthRequest="350" 
+                HeightRequest="100"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" />
+        <Button Text="Choose picture" BackgroundColor="Transparent" TextColor="#f4acb7" BorderColor="#f4acb7" BorderWidth="2" WidthRequest="350">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding ChoosePhotoCommand}"/>
+            </Button.Behaviors>
+        </Button>
+        <Button Text="Add" BackgroundColor="Transparent" TextColor="#f4acb7" BorderColor="#f4acb7" BorderWidth="2" WidthRequest="350" Margin="0, 5, 0, 0">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding AddPaintingCommand}"/>
+            </Button.Behaviors>
+        </Button>
+    </VerticalStackLayout>
+
+</ContentPage>

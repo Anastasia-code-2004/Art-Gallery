@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ArtGallerySystem.Domain/1.0.0": {
+        "runtime": {
+          "ArtGallerySystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ArtGallerySystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.EditExhibitionPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:sys="clr-namespace:System;assembly=System.Runtime"
+             x:DataType="models:EditExhibitionViewModel"
+             Title="Edit Exhibition">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateExhibitionInfoCommand}"/>
+    </ContentPage.Behaviors>
+    <VerticalStackLayout Margin="0,10,0,0">
+        <Entry Placeholder="Name" Text="{Binding Exhibition.Name, Mode=TwoWay}"
+               MaxLength="20" WidthRequest="350"/>
+        <Editor Placeholder="Description" 
+                Text="{Binding Exhibition.Description, Mode=TwoWay}"
+                MaxLength="200" 
+                WidthRequest="350" 
+                HeightRequest="100"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" />
+        <Label Text="Start Date" WidthRequest="350"/>
+        <DatePicker Date="{Binding Exhibition.StartDate, Mode=TwoWay}" 
+                    MinimumDate="{x:Static sys:DateTime.Today}" WidthRequest="350"/>
+        <Label Text="End Date" WidthRequest="350"/>
+        <DatePicker Date="{Binding Exhibition.EndDate, Mode=TwoWay}" 
+                    MinimumDate="{x:Static sys:DateTime.Today}" WidthRequest="350"/>
+        <Entry Placeholder="Ticket Price" Text="{Binding Exhibition.TicketPrice, Mode=TwoWay}" 
+               Keyboard="Numeric"
+               MaxLength="6" WidthRequest="350"/>
+        <ListView ItemsSource="{Binding Paintings}" WidthRequest="350">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Painting">
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <CheckBox IsChecked="{Binding IsInExhibition}" Color="#f4acb7"/>
+                            <Label Text="{Binding Name}"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Button Text="Edit" WidthRequest="350" BackgroundColor="#f4acb7" TextColor="#9d8189" BorderColor="#9d8189" BorderWidth="2" CornerRadius="0">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding EditExhibitionCommand}"/>
+            </Button.Behaviors>
+        </Button>
+    </VerticalStackLayout>
+
+</ContentPage>

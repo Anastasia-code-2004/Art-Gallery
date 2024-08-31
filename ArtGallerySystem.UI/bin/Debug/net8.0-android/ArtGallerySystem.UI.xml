@@ -1,0 +1,1199 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ArtGallerySystem.UI</name>
+    </assembly>
+    <members>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.CardNumber">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel._cardNumber"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.ExpirationDate">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel._expirationDate"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.Cvv">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel._cvv"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.addBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.AddBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.AddBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddBankCardViewModel.AddBankCardAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.Name">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel._name"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.Description">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel._description"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.Discount">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel._discount"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.addCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.AddCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.AddCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddCategoryViewModel.AddCategoryAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.Name">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._name"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.Description">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._description"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.StartDate">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._startDate"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.EndDate">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._endDate"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.Price">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._price"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.IsInExhibition">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel._isInExhibition"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.addExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.AddExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.AddExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.AddExhibitionAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.updatePaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.UpdatePaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.UpdatePaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddExhibitionViewModel.UpdatePaintingsAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.Name">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel._name"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.Description">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel._description"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.Price">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel._price"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.Duration">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel._duration"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.addCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.AddCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.AddCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddMembershipCategoryViewModel.AddCategoryAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.Name">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel._name"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.Author">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel._author"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.Description">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel._description"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.YearOfCreation">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel._yearOfCreation"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.SelectedPhoto">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel._selectedPhoto"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.addPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.AddPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.AddPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.AddPaintingAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.choosePhotoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.ChoosePhotoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.ChoosePhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AddPaintingViewModel.ChoosePhotoAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.Admin">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel._admin"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.getClientsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetClientsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetClientsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetClientsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.getPaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetPaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetPaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetPaintingsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.getExhibitionsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetExhibitionsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetExhibitionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GetExhibitionsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.gotoTicketCategoriesPageCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GotoTicketCategoriesPageCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GotoTicketCategoriesPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.GotoTicketCategoriesPageAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.editMembershipsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.EditMembershipsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.EditMembershipsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.EditMembershipsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.logOutCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.LogOutCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.LogOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.LogOutAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.scanCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.ScanCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.ScanCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.AdminProfileViewModel.ScanAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.BankCardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.SelectedBankCard">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel._selectedBankCard"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.CardNumber">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel._cardNumber"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.ExpirationDate">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel._expirationDate"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.Cvv">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel._cvv"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel.updateBankCardsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.UpdateBankCardsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.UpdateBankCardsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BankCardViewModel.UpdateBankCardsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel.addBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.AddBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.AddBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BankCardViewModel.AddBankCardAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel.deleteBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.DeleteBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.DeleteBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BankCardViewModel.DeleteBankCardAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BankCardViewModel.selectBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.SelectBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BankCardViewModel.SelectBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BankCardViewModel.SelectBankCardAsync(ArtGallerySystem.Domain.Entities.BankCard)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.CategoryMembership">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel._categoryMembership"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.Membership">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel._membership"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.updateInfoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.UpdateInfoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.UpdateInfoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.UpdateInfo"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.buyMembershipCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.BuyMembershipCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.BuyMembershipCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BuyMembershipViewModel.BuyMembershipAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.Exhibition">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel._exhibition"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.SelectedCategory">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel._selectedCategory"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.DiscountedPrice">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel._discountedPrice"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.updateCategoriesCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdateCategoriesCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdateCategoriesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdateCategoriesAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.updatePriceCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdatePriceCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdatePriceCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.UpdatePriceAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.chooseCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.ChooseCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.ChooseCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.BuyTicketViewModel.ChooseCardAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.IsProcessingPayment">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._isProcessingPayment"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.Membership">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._membership"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.SelectedBankCard">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._selectedBankCard"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.CardNumber">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._cardNumber"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.ExpirationDate">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._expirationDate"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.Cvv">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel._cvv"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.updateBankCardsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.UpdateBankCardsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.UpdateBankCardsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.UpdateBankCardsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.addBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.AddBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.AddBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.AddBankCardAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.completePaymentCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.CompletePaymentCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.CompletePaymentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.CompletePaymentAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.selectBankCardCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.SelectBankCardCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.SelectBankCardCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ChooseCardViewModel.SelectBankCardAsync(ArtGallerySystem.Domain.Entities.BankCard)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.ClientsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ClientsViewModel.updateClientsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ClientsViewModel.UpdateClientsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ClientsViewModel.UpdateClientsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ClientsViewModel.UpdateClientsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ClientsViewModel.getTicketsForClientCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ClientsViewModel.GetTicketsForClientCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ClientsViewModel.GetTicketsForClientCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ClientsViewModel.GetTicketsForClientAsync(ArtGallerySystem.Domain.Entities.Client)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.CollectionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.IsRefreshing">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.CollectionViewModel._isRefreshing"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.CollectionViewModel.updatePaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.UpdatePaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.UpdatePaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.CollectionViewModel.UpdatePaintingsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.CollectionViewModel.detailsPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.DetailsPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.DetailsPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.CollectionViewModel.DetailsPaintingAsync(ArtGallerySystem.Domain.Entities.Painting)"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.CollectionViewModel.refreshCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.RefreshCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.CollectionViewModel.RefreshCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.CollectionViewModel.RefreshAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.Exhibition">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel._exhibition"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.updatePaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.UpdatePaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.UpdatePaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.UpdatePaintingsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.buyTicketCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.BuyTicketCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.BuyTicketCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.BuyTicketAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.detailsPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.DetailsPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.DetailsPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.DetailsExhibitionViewModel.DetailsPaintingAsync(ArtGallerySystem.Domain.Entities.Painting)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.Painting">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel._painting"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.SelectedPhoto">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel._selectedPhoto"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.updateInfoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.UpdateInfoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.UpdateInfoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.DetailsPaintingViewModel.UpdateInfo"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.SelectedCategory">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel._selectedCategory"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.updateCategoriesCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.UpdateCategoriesCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.UpdateCategoriesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.UpdateCategoriesAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.addCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.AddCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.AddCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.AddCategoryAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.deleteCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.DeleteCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.DeleteCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCategoriesViewModel.DeleteCategoryAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.updatePaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.UpdatePaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.UpdatePaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.UpdatePaintingsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.addPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.AddPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.AddPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.AddPaintingAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.deletePaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.DeletePaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.DeletePaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.DeletePaintingAsync(ArtGallerySystem.Domain.Entities.Painting)"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.editPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.EditPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.EditPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditCollectionViewModel.EditPaintingAsync(ArtGallerySystem.Domain.Entities.Painting)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.SelectedExhibition">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.selectedExhibition"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.updateExhibitionsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdateExhibitionsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdateExhibitionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdateExhibitionsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.updatePaintingsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdatePaintingsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdatePaintingsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.UpdatePaintingsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.addExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.AddExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.AddExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.AddExhibitionAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.deleteExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DeleteExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DeleteExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DeleteExhibitionAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.editExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.EditExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.EditExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.EditExhibitionAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.detailsPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DetailsPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DetailsPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionsViewModel.DetailsPaintingAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.Exhibition">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel._exhibition"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.updateExhibitionInfoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.UpdateExhibitionInfoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.UpdateExhibitionInfoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.UpdateExhibitionInfo"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.editExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.EditExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.EditExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditExhibitionViewModel.EditExhibitionAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.SelectedMembershipCategory">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel._selectedMembershipCategory"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.updateMembershipCategoriesCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.UpdateMembershipCategoriesCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.UpdateMembershipCategoriesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.UpdateMembershipCategoriesAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.addMembershipCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.AddMembershipCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.AddMembershipCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.AddMembershipCategoryAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.deleteMembershipCategoryCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.DeleteMembershipCategoryCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.DeleteMembershipCategoryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditMembershipsViewModel.DeleteMembershipCategoryAsync(System.Int32)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.Painting">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel._painting"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.SelectedPhoto">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel._selectedPhoto"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.updateInfoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.UpdateInfoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.UpdateInfoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.UpdateInfo"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.choosePhotoCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.ChoosePhotoCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.ChoosePhotoCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.ChoosePhotoAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.editPaintingCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.EditPaintingCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.EditPaintingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.EditPaintingViewModel.EditPaintingAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.updateExhibitionsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.UpdateExhibitionsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.UpdateExhibitionsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.UpdateExhibitionsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.viewExhibitionCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.ViewExhibitionCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.ViewExhibitionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ExhibitionsViewModel.ViewExhibitionAsync(ArtGallerySystem.Domain.Entities.Exhibition)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.LogInViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.EmailPhone">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.LogInViewModel._emailPhone"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.Password">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.LogInViewModel._password"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.LogInViewModel.logInCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.LogInCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.LogInCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.LogInViewModel.LogInAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.LogInViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.LogInViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.LogInViewModel.RegisterAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.MembershipViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.MembershipViewModel.updateCategoryMembershipsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.MembershipViewModel.UpdateCategoryMembershipsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.MembershipViewModel.UpdateCategoryMembershipsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.MembershipViewModel.UpdateCategoryMembershipsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.MembershipViewModel.buyMembershipCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.MembershipViewModel.BuyMembershipCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.MembershipViewModel.BuyMembershipCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.MembershipViewModel.BuyMembershipAsync(ArtGallerySystem.Domain.Entities.CategoryMembership)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.ProfileViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.Client">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.ProfileViewModel._client"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ProfileViewModel.getBankCardsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetBankCardsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetBankCardsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetBankCardsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ProfileViewModel.getTicketsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetTicketsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetTicketsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetTicketsAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ProfileViewModel.getQrCodeCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetQrCodeCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetQrCodeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ProfileViewModel.GetQrCodeAsync"/>.</summary>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ProfileViewModel.logOutCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.LogOutCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ProfileViewModel.LogOutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ProfileViewModel.LogOutAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.QrCodeViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.QrCodeViewModel.updateQrCodesCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.QrCodeViewModel.UpdateQrCodesCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.QrCodeViewModel.UpdateQrCodesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.QrCodeViewModel.UpdateQrCodes"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.RegisterViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Name">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._name"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Surname">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._surname"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Email">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._email"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Phone">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._phone"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Password">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._password"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.NameBorderColor">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._nameBorderColor"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.SurnameBorderColor">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._surnameBorderColor"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.EmailBorderColor">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._emailBorderColor"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.PhoneBorderColor">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._phoneBorderColor"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.PasswordBorderColor">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._passwordBorderColor"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.NameValidationMessage">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._nameValidationMessage"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.SurnameValidationMessage">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._surnameValidationMessage"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.EmailValidationMessage">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._emailValidationMessage"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.PhoneValidationMessage">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._phoneValidationMessage"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.PasswordValidationMessage">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._passwordValidationMessage"/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.CanRegister">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel._canRegister"/>
+        </member>
+        <member name="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.OnNameChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Name"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Name"/> is changed.</remarks>
+        </member>
+        <member name="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.OnSurnameChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Surname"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Surname"/> is changed.</remarks>
+        </member>
+        <member name="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.OnEmailChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Email"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Email"/> is changed.</remarks>
+        </member>
+        <member name="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.OnPhoneChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Phone"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Phone"/> is changed.</remarks>
+        </member>
+        <member name="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.OnPasswordChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Password"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.Password"/> is changed.</remarks>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.RegisterViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.RegisterViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.RegisterViewModel.RegisterAsync"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.ScanningViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.ScanningViewModel.processScannedBarcodesCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.ScanningViewModel.ProcessScannedBarcodesCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.ScanningViewModel.ProcessScannedBarcodesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.ScanningViewModel.ProcessScannedBarcodes(System.String)"/>.</summary>
+        </member>
+        <member name="T:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel.Membership">
+            <inheritdoc cref="F:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel._membership"/>
+        </member>
+        <member name="F:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel.updateTicketsCommand">
+            <summary>The backing field for <see cref="P:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel.UpdateTicketsCommand"/>.</summary>
+        </member>
+        <member name="P:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel.UpdateTicketsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ArtGallerySystem.UI.ViewModels.TicketsForClientViewModel.UpdateTicketsAsync"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CardNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CardNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ExpirationDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ExpirationDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Cvv">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Cvv" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Discount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Discount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EndDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EndDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsInExhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsInExhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Duration">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Duration" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Author">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Author" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.YearOfCreation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "YearOfCreation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedPhoto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedPhoto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Admin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Admin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedBankCard">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedBankCard" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryMembership">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryMembership" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Membership">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Membership" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Exhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Exhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DiscountedPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DiscountedPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsProcessingPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsProcessingPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Painting">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Painting" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedExhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedExhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedMembershipCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedMembershipCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmailPhone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmailPhone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Client">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Client" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Surname">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Surname" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Phone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Phone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NameBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NameBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SurnameBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SurnameBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmailBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmailBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PhoneBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PhoneBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PasswordBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PasswordBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NameValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NameValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SurnameValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SurnameValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EmailValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EmailValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PhoneValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PhoneValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PasswordValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PasswordValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CanRegister">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CanRegister" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CardNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CardNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ExpirationDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ExpirationDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Cvv">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Cvv" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Description">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Description" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Discount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Discount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EndDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EndDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Price">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Price" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsInExhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsInExhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Duration">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Duration" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Author">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Author" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.YearOfCreation">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "YearOfCreation" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedPhoto">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedPhoto" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Admin">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Admin" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedBankCard">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedBankCard" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryMembership">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryMembership" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Membership">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Membership" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Exhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Exhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DiscountedPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DiscountedPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsProcessingPayment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsProcessingPayment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsRefreshing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsRefreshing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Painting">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Painting" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedExhibition">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedExhibition" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedMembershipCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedMembershipCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmailPhone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmailPhone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Client">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Client" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Surname">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Surname" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Phone">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Phone" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NameBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NameBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SurnameBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SurnameBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmailBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmailBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PhoneBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PhoneBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PasswordBorderColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PasswordBorderColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NameValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NameValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SurnameValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SurnameValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EmailValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EmailValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PhoneValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PhoneValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PasswordValidationMessage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PasswordValidationMessage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CanRegister">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CanRegister" generated properties.</summary>
+        </member>
+    </members>
+</doc>

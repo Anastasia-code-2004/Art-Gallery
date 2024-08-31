@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ArtGallerySystem.UI.Views"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:ChooseCardViewModel"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             x:Class="ArtGallerySystem.UI.Pages.ChooseCardPage"
+             Title="">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="add.png" 
+                     Command="{Binding AddBankCardCommand}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateBankCardsCommand}"/>
+    </ContentPage.Behaviors>
+    
+    <ScrollView>
+
+        <StackLayout Orientation="Vertical">
+            <ActivityIndicator Color="#ff0054" IsRunning="{Binding IsProcessingPayment}" 
+                               IsVisible="{Binding IsProcessingPayment}" />
+            <CollectionView ItemsSource="{Binding BankCards}"
+                            SelectedItem="{Binding SelectedBankCard}"
+                            SelectionMode="Single">
+               <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="entities:BankCard">
+                        <views:CreditCardView CardNumber="{Binding CardNumber}"
+                                              ExpirationDate="{Binding ExpiryDate}"
+                                              CardValidationCode="{Binding CVV}">
+                            <views:CreditCardView.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                AncestorType={x:Type models:ChooseCardViewModel}}, 
+                                Path=SelectBankCardCommand}"
+                                                      CommandParameter="{Binding}"/>
+                            </views:CreditCardView.GestureRecognizers>
+                        </views:CreditCardView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+
+
+
+

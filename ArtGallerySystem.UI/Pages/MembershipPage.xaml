@@ -1,0 +1,54 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.MembershipPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:MembershipViewModel"
+             Title="">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Loaded"  
+                                        Command="{Binding UpdateCategoryMembershipsCommand}"/>
+    </ContentPage.Behaviors>
+    <ContentPage.Content>
+        <StackLayout Padding="20" Spacing="15">
+            <ScrollView>
+                <StackLayout Spacing="10">
+                    <Label Text="Available Memberships" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center" />
+                    <CollectionView ItemsSource="{Binding CategoryMemberships}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="entities:CategoryMembership">
+                                <Frame BorderColor="LightGray" CornerRadius="10" HasShadow="True" Padding="20">
+                                    <StackLayout Spacing="10">
+                                        <Label Text="{Binding Name}" 
+                                               FontSize="20" 
+                                               FontAttributes="Bold" 
+                                               TextColor="Black" />
+                                        <Label Text="{Binding Description}" 
+                                               FontSize="16" 
+                                               TextColor="Gray" />
+                                        <Label Text="{Binding Price, StringFormat='Price: {0:N2} BYN'}" 
+                                               FontSize="16" 
+                                               TextColor="DarkGray" />
+                                        <Label Text="{Binding Duration, StringFormat='Duration: {0} month(s)'}" 
+                                               FontSize="16" 
+                                               TextColor="DarkGray" />
+                                    </StackLayout>
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding Source={RelativeSource 
+                                                AncestorType={x:Type models:MembershipViewModel}}, 
+                                                Path=BuyMembershipCommand}" 
+                                                              CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

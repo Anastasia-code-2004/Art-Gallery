@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.Admin.AddCategoryPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="models:AddCategoryViewModel"
+             Title="Add Category">
+    <VerticalStackLayout>
+        <Entry Placeholder="Name"
+               Text="{Binding Name}" MaxLength="20" WidthRequest="350"/>
+        <Editor Placeholder="Description" 
+                Text="{Binding Description}"
+                MaxLength="200" 
+                WidthRequest="350" 
+                HeightRequest="100"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="FillAndExpand" />
+        <Entry Placeholder="Discount" 
+               Text="{Binding Discount}"
+               WidthRequest="350"
+               Keyboard="Numeric" MaxLength="3"/>
+        <Button Text="Add" BackgroundColor="Transparent" TextColor="Black" BorderColor="Black" BorderWidth="2" WidthRequest="350">
+            <Button.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="Clicked" Command="{Binding AddCategoryCommand}"/>
+            </Button.Behaviors>
+        </Button>
+    </VerticalStackLayout>
+</ContentPage>

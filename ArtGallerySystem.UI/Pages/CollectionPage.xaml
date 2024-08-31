@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArtGallerySystem.UI.Pages.CollectionPage"
+             xmlns:models="clr-namespace:ArtGallerySystem.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:entities="clr-namespace:ArtGallerySystem.Domain.Entities;assembly=ArtGallerySystem.Domain"
+             xmlns:valueConverters="clr-namespace:ArtGallerySystem.UI.ValueConverters"
+             x:DataType="models:CollectionViewModel"
+             Title="">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <valueConverters:BytesToImageSourceConverter x:Key="BytesToImageSourceConverter" />
+            <valueConverters:IdToImageSourceConverter x:Key="IdToImageSourceConverter" />
+            <Style x:Key="PaintingFrameStyle" TargetType="Frame">
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="HasShadow" Value="True"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+            </Style>
+            <Style x:Key="PaintingLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="Margin" Value="0,5"/>
+            </Style>
+            <Style x:Key="PaintingAuthorLabelStyle" TargetType="Label">
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="FontAttributes" Value="Italic"/>
+                <Setter Property="TextColor" Value="Gray"/>
+                <Setter Property="Margin" Value="0,0,0,10"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing"  
+                                        Command="{Binding UpdatePaintingsCommand}"/>
+    </ContentPage.Behaviors>
+
+    <RefreshView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                 RefreshColor="Aquamarine" Command="{Binding RefreshCommand}"
+                 IsRefreshing="{Binding IsRefreshing}">
+        <CollectionView ItemsLayout="VerticalList" ItemsSource="{Binding Paintings}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="entities:Painting">
+                    <Frame Style="{StaticResource PaintingFrameStyle}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="0.3*"/>
+                                <ColumnDefinition Width="0.7*"/>
+                            </Grid.ColumnDefinitions>
+                            <!--<Image Source="{Binding Photo, Converter={StaticResource BytesToImageSourceConverter}}"
+                                   Aspect="AspectFill" HeightRequest="100" WidthRequest="100" />-->
+                            <Image Source="{Binding Id, Converter={StaticResource IdToImageSourceConverter}}"
+                                            Aspect="AspectFill" HeightRequest="100" WidthRequest="100" />
+                            <VerticalStackLayout Grid.Column="1" Padding="10,0" VerticalOptions="Center">
+                                <Label Text="{Binding Name}" Style="{StaticResource PaintingLabelStyle}" FontAttributes="Bold"/>
+                                <Label Text="{Binding Author}" Style="{StaticResource PaintingAuthorLabelStyle}"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type models:CollectionViewModel}}, Path=DetailsPaintingCommand}" 
+                                                  CommandParameter="{Binding .}"/>
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>
