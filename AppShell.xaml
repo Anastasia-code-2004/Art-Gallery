@@ -16,8 +16,9 @@
                       Route="Exhibitions"
                       ContentTemplate="{DataTemplate local:MainPage}"/><!-- Current exhibitions -->
         <ShellContent Title="Collection"
-                      Route="Collection"
-                      ContentTemplate="{DataTemplate pages:CollectionPage}"/><!-- Collection of paintings -->
+                      ContentTemplate="{DataTemplate pages:CollectionPage}"
+                      Route="Collection"/><!-- Collection of paintings -->
+        
         <ShellContent Title="Visit us"
                       Route="VisitUs"
                       ContentTemplate="{DataTemplate local:MainPage}"/><!-- Visit us -->

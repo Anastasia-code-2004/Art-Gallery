@@ -8,6 +8,7 @@ public partial class BankCardPage : ContentPage
 	Client _client;
 	public List<BankCard> _bankCards;
 	private ArtGallery _artGallery;
+	public BankCard BankCard { get; set; }
 	public BankCardPage(ArtGallery artGallery)
 	{
 		InitializeComponent();

@@ -9,7 +9,9 @@
         <StackLayout Orientation="Vertical">
             <Button Text="Add New Card"
                     Clicked="OnAddNewCardClicked" />
-            <CollectionView x:Name="BankCardsCollection">
+            <CollectionView x:Name="BankCardsCollection"
+                            SelectedItem="{Binding BankCard}"
+                            SelectionMode="Single">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <views:CreditCardView CardNumber="{Binding CardNumber}"

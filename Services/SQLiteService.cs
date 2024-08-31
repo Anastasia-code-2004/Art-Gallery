@@ -17,7 +17,7 @@ public class SQLiteService : IDbService
         // Debug.WriteLine(dataBasePath);
 
         _database = new SQLiteConnection(dataBasePath);
-        _database.DeleteAll<BankCard>();
+        //_database.DeleteAll<BankCard>();
     }
 
     public void AddEntity<T>(T entity)

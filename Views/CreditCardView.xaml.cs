@@ -149,6 +149,7 @@ public partial class CreditCardView : Frame
     {
         ExpirationDateLabel.Text = ExpirationDate.ToString("MM/yy",
             CultureInfo.InvariantCulture);
+        //ExpirationDateLabel.Text = ExpirationDate;
     }
 
     private void SetCardValidationCode()

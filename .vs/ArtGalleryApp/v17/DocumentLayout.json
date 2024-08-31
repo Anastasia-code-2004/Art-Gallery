@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\naaan\\source\\ArtGalleryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\admincollectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\admincollectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\bankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\addpaintingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\addpaintingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\addpaintingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\addpaintingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\admincollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\admincollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\clientbankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\clientbankcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\accountssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\accountssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\painting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\painting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\bankcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\bankcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\bankcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\bankcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\addbankcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,78 +75,132 @@
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\addbankcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\bankcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\bankcardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\bankcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\bankcardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\views\\creditcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:views\\creditcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\views\\creditcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:views\\creditcardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\views\\creditcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:views\\creditcardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\artgallery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\collectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\collectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\accountssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\accountssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\helpers\\creditcardtyperegexhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:helpers\\creditcardtyperegexhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\adminshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:adminshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\helpers\\extensionmethods\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:helpers\\extensionmethods\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\admincollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\admincollectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\admincollectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\admincollectionpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\collectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\collectionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\adminprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\adminprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\myprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\myprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:entities\\personalinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\infopaintingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\infopaintingpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\infopaintingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\infopaintingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\adminshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:adminshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\foradmin\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\foradmin\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|c:\\users\\naaan\\source\\artgalleryapp\\pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72952DD2-C8F4-4E5C-930F-619A5050A3FF}|ArtGalleryApp.csproj|solutionrelative:pages\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedHeight": 114,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "AdminsPage.xaml",
               "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminsPage.xaml",
               "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminsPage.xaml",
@@ -110,64 +208,325 @@
               "RelativeToolTip": "Pages\\ForAdmin\\AdminsPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T08:12:50.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T08:12:50.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml",
-              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminProfilePage.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml",
-              "RelativeToolTip": "Pages\\ForAdmin\\AdminProfilePage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T08:12:48.184Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreditCardView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\CreditCardView.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml.cs",
-              "RelativeToolTip": "Views\\CreditCardView.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "SQLiteService.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Services\\SQLiteService.cs",
+              "RelativeDocumentMoniker": "Services\\SQLiteService.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Services\\SQLiteService.cs",
+              "RelativeToolTip": "Services\\SQLiteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T08:07:42.059Z",
+              "WhenOpened": "2024-04-08T11:23:40.921Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdminCollectionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminCollectionPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminCollectionPage.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminCollectionPage.xaml",
-              "RelativeToolTip": "Pages\\ForAdmin\\AdminCollectionPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T08:00:34.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "AddPaintingPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AddPaintingPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ForAdmin\\AddPaintingPage.xaml.cs",
               "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AddPaintingPage.xaml.cs",
               "RelativeToolTip": "Pages\\ForAdmin\\AddPaintingPage.xaml.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:59:25.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T07:59:25.472Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:43:45.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BankCard.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\BankCard.cs",
+              "RelativeDocumentMoniker": "Entities\\BankCard.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\BankCard.cs",
+              "RelativeToolTip": "Entities\\BankCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T18:17:08.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPaintingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AddPaintingPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AddPaintingPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AddPaintingPage.xaml",
+              "RelativeToolTip": "Pages\\ForAdmin\\AddPaintingPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T11:43:55.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\User.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\User.cs",
+              "RelativeToolTip": "Entities\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:48:02.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClientBankCard.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ClientBankCard.cs",
+              "RelativeDocumentMoniker": "Entities\\ClientBankCard.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ClientBankCard.cs",
+              "RelativeToolTip": "Entities\\ClientBankCard.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:07:33.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountsSystem.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\AccountsSystem.cs",
+              "RelativeDocumentMoniker": "Entities\\AccountsSystem.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\AccountsSystem.cs",
+              "RelativeToolTip": "Entities\\AccountsSystem.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowGUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:26:02.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Painting.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Painting.cs",
+              "RelativeDocumentMoniker": "Entities\\Painting.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Painting.cs",
+              "RelativeToolTip": "Entities\\Painting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T17:10:24.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDbService.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Services\\IDbService.cs",
+              "RelativeDocumentMoniker": "Services\\IDbService.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Services\\IDbService.cs",
+              "RelativeToolTip": "Services\\IDbService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T07:58:55.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BankCardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\BankCardPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml",
+              "RelativeToolTip": "Pages\\BankCardPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T07:58:37.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ArtGallery.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ArtGallery.cs",
+              "RelativeDocumentMoniker": "Entities\\ArtGallery.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ArtGallery.cs",
+              "RelativeToolTip": "Entities\\ArtGallery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:25:52.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AddBankCardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddBankCardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml.cs",
+              "RelativeToolTip": "Pages\\AddBankCardPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T20:47:29.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddBankCardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\AddBankCardPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml",
+              "RelativeToolTip": "Pages\\AddBankCardPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T07:56:15.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BankCardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\BankCardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml.cs",
+              "RelativeToolTip": "Pages\\BankCardPage.xaml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T18:42:50.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "Entities\\Client.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Client.cs",
+              "RelativeToolTip": "Entities\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:21:04.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T14:18:25.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreditCardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\CreditCardView.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml.cs",
+              "RelativeToolTip": "Views\\CreditCardView.xaml.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAswE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T08:07:42.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreditCardView.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml",
+              "RelativeDocumentMoniker": "Views\\CreditCardView.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml",
+              "RelativeToolTip": "Views\\CreditCardView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T06:22:02.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CollectionPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\CollectionPage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml.cs",
+              "RelativeToolTip": "Pages\\CollectionPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:18:40.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreditCardTypeRegexHelper.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Helpers\\CreditCardTypeRegexHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\CreditCardTypeRegexHelper.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Helpers\\CreditCardTypeRegexHelper.cs",
+              "RelativeToolTip": "Helpers\\CreditCardTypeRegexHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:35:29.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AdminShell.xaml.cs",
+              "RelativeDocumentMoniker": "AdminShell.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AdminShell.xaml.cs",
+              "RelativeToolTip": "AdminShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T16:46:33.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T10:52:50.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Helpers\\ExtensionMethods\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "Helpers\\ExtensionMethods\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Helpers\\ExtensionMethods\\StringExtensions.cs",
+              "RelativeToolTip": "Helpers\\ExtensionMethods\\StringExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T11:35:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminCollectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminCollectionPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminCollectionPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminCollectionPage.xaml",
+              "RelativeToolTip": "Pages\\ForAdmin\\AdminCollectionPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T08:00:34.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\ClientsPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\ClientsPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\ClientsPage.xaml",
+              "RelativeToolTip": "Pages\\ForAdmin\\ClientsPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T08:12:53.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "AdminCollectionPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminCollectionPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminCollectionPage.xaml.cs",
@@ -175,63 +534,95 @@
               "RelativeToolTip": "Pages\\ForAdmin\\AdminCollectionPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:59:22.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T07:59:22.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClientsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\ClientsPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\ForAdmin\\ClientsPage.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\ClientsPage.xaml",
-              "RelativeToolTip": "Pages\\ForAdmin\\ClientsPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 29,
+              "Title": "AdminProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminProfilePage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml",
+              "RelativeToolTip": "Pages\\ForAdmin\\AdminProfilePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T08:12:53.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T08:12:48.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BankCardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\BankCardPage.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml",
-              "RelativeToolTip": "Pages\\BankCardPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "DocumentIndex": 27,
+              "Title": "CollectionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\CollectionPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml",
+              "RelativeToolTip": "Pages\\CollectionPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T07:58:37.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:55:21.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddBankCardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\AddBankCardPage.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml",
-              "RelativeToolTip": "Pages\\AddBankCardPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T07:56:15.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CollectionPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\CollectionPage.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\CollectionPage.xaml.cs",
-              "RelativeToolTip": "Pages\\CollectionPage.xaml.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBYAAAA8AAAA",
+              "DocumentIndex": 30,
+              "Title": "AdminProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
+              "RelativeToolTip": "Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T07:18:40.399Z"
+              "WhenOpened": "2024-04-08T06:14:07.015Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\RegistrationPage.xaml",
+              "RelativeToolTip": "Pages\\RegistrationPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T17:37:29.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "MyProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\MyProfilePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MyProfilePage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\MyProfilePage.xaml",
+              "RelativeToolTip": "Pages\\MyProfilePage.xaml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T17:37:19.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LogInPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\LogInPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml",
+              "RelativeToolTip": "Pages\\LogInPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-08T11:40:05.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LogInPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\LogInPage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml.cs",
+              "RelativeToolTip": "Pages\\LogInPage.xaml.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T06:27:32.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "Entities\\Admin.cs",
@@ -243,56 +634,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Entities\\User.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\User.cs",
-              "RelativeToolTip": "Entities\\User.cs",
+              "DocumentIndex": 36,
+              "Title": "PersonalInfo.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\PersonalInfo.cs",
+              "RelativeDocumentMoniker": "Entities\\PersonalInfo.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\PersonalInfo.cs",
+              "RelativeToolTip": "Entities\\PersonalInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:48:02.443Z"
+              "WhenOpened": "2024-05-13T18:00:56.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LogInPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\LogInPage.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\LogInPage.xaml.cs",
-              "RelativeToolTip": "Pages\\LogInPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAFAAAA",
+              "DocumentIndex": 37,
+              "Title": "InfoPaintingPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\InfoPaintingPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\InfoPaintingPage.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\InfoPaintingPage.xaml.cs",
+              "RelativeToolTip": "Pages\\ForAdmin\\InfoPaintingPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:27:32.196Z"
+              "WhenOpened": "2024-05-13T16:58:08.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AccountsSystem.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\AccountsSystem.cs",
-              "RelativeDocumentMoniker": "Entities\\AccountsSystem.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\AccountsSystem.cs",
-              "RelativeToolTip": "Entities\\AccountsSystem.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwGUAAAABAAAA",
+              "DocumentIndex": 38,
+              "Title": "InfoPaintingPage.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\InfoPaintingPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ForAdmin\\InfoPaintingPage.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\InfoPaintingPage.xaml",
+              "RelativeToolTip": "Pages\\ForAdmin\\InfoPaintingPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T16:58:04.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:26:02.066Z"
+              "WhenOpened": "2024-05-13T16:43:42.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ArtGallery.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ArtGallery.cs",
-              "RelativeDocumentMoniker": "Entities\\ArtGallery.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\ArtGallery.cs",
-              "RelativeToolTip": "Entities\\ArtGallery.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAiwEgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:25:52.956Z",
-              "EditorCaption": ""
+              "DocumentIndex": 41,
+              "Title": "AdminShell.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AdminShell.xaml",
+              "RelativeDocumentMoniker": "AdminShell.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AdminShell.xaml",
+              "RelativeToolTip": "AdminShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T16:46:36.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 42,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-13T16:46:35.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-13T16:43:29.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "ClientsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\ClientsPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ForAdmin\\ClientsPage.xaml.cs",
@@ -303,69 +729,26 @@
               "WhenOpened": "2024-04-08T06:23:18.914Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CreditCardView.xaml",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml",
-              "RelativeDocumentMoniker": "Views\\CreditCardView.xaml",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Views\\CreditCardView.xaml",
-              "RelativeToolTip": "Views\\CreditCardView.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-08T06:22:02.859Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Client.cs",
-              "RelativeDocumentMoniker": "Entities\\Client.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Entities\\Client.cs",
-              "RelativeToolTip": "Entities\\Client.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:21:04.039Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminProfilePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
-              "RelativeToolTip": "Pages\\ForAdmin\\AdminProfilePage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T06:14:07.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddBankCardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\AddBankCardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\AddBankCardPage.xaml.cs",
-              "RelativeToolTip": "Pages\\AddBankCardPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T20:47:29.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BankCardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\BankCardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\naaan\\source\\ArtGalleryApp\\Pages\\BankCardPage.xaml.cs",
-              "RelativeToolTip": "Pages\\BankCardPage.xaml.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAABUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T18:42:50.194Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
